@@ -7,9 +7,12 @@ Now, the server is up and running!
 
 You need to provide input file with any number of slots(number of slots you enter should be less than or equal to number of slots actually there in the input file
 eg: if slot0,stot1,slot2 have to be evaluated enter 3
-But, the format has to be
+But, the format of the csv headers has to be
+conversation_id	slot0	slot1	slot2	slot3
+
 
 Enter the name of the file as eg :newfile.csv
+It should be a csv file
 Place the input file in the home directory of the folder
 
 run Prompt.py
